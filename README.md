@@ -15,3 +15,5 @@ Note:
 2. Here "TATEnc.txt" is the XMLn.
 3. The file named "Compress" is XMLs.
 4. We have created a Java program to create XMLs (which is taking more time), just to make the process more understandable.
+5. We did not use any XML parser to make the Substitution fast. We converted XMLn from XML with the help of regular expressions. So the given code will only run for the special types of XML.
+6. We have another code to run on every type of XML, but it takes longer.
